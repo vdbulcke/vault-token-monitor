@@ -18,7 +18,7 @@ VERSION=$(echo $TAG | cut -d 'v' -f 2)
 
 ## Docker
 
-See the latest release notes [https://github.com/vdbulcke/vault-token-monitor/releases](https://github.com/vdbulcke/vault-token-monitor/releases) to find the latest docker image.
+See the [Packages Page](https://github.com/vdbulcke/vault-token-monitor/pkgs/container/vault-token-monitor) to find the latest docker image.
 
 ```bash
 docker run --rm  -v /path/to/your/config.yaml:/app/config.yaml:z -p 9000:9000 ghcr.io/vdbulcke/vault-token-monitor:v${TAG}
