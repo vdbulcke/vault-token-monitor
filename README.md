@@ -11,6 +11,12 @@ Moreover `vault-token-monitor`  can also auto-renew token when the TTL is bellow
 - Auto Renew tokens when TTL is below threshold
 - Sample [Grafana Dashboards ](./tutorial/grafana-terraform-config/dashboards/)
 
+## Install 
+
+Follow [install doc](https://vdbulcke.github.io/vault-token-monitor/install/) to install binaries. 
+
+Docker images can be found on [ghcr.io/vdbulcke/vault-token-monitor](https://github.com/vdbulcke/vault-token-monitor/pkgs/container/vault-token-monitor)
+
 
 ## Documentation
 
