@@ -1,0 +1,58 @@
+---
+
+
+##
+## Vault Config
+##
+### The Vault API Address
+### (mandatory)
+vault_address: "http://127.0.0.1:8200"
+### Vault Token 
+###   having the permission to lookupand renew  other 
+###   accessor tokens
+### (mandatory)
+vault_token: "hvs.CAESINEj-adKWeKrbrLdLNCBhwfIxTk0XbBzP_e-uwWSCvOQGh4KHGh2cy5UQThmTDhYUklpUFBrbkhtanFiekRPcDY"
+
+### TLS Setting  (optional) 
+### Default false
+# skip_tls_validation: true
+### Path to a PEM encoded CA file
+# vault_ca_pem_file: /path/to/ca.pem
+
+
+##
+## Prometheus
+## 
+### Listening port 
+### (mandatory)
+prometheus_listening_port: 9000
+
+##
+## Scheduler
+##
+### Period duration at which the scheduler
+### will lookup token to check for TTL, and
+### for auto renew threshold.
+###
+###
+### Allowed Unit format for duration "s", "m", "h".
+### (mandatory)
+scheduler_period_duration: 1m
+
+##
+## Vault Accessor Token list
+##
+### (mandatory)
+vault_accessor_token_list: 
+  ## A Vault token accessor to monitor
+  ## (mandatory)
+  - token_accessor: "T1hr2GKaWgNrriLQLsQRuf1d"
+
+  ## A Vault token accessor to monitor
+  ## and to renew when TTL of token is lower than 
+  ## the auto_renew_threshold_duration:
+  ### Allowed Unit format for duration "s", "m", "h".
+  ## (optional)
+  - 
+    token_accessor: "F3JwTAZeuAH5KoOdxEXTWwIT"
+    auto_renew_threshold_duration: 3m
