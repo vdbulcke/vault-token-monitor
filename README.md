@@ -11,6 +11,7 @@ Moreover `vault-token-monitor`  can also auto-renew token when the TTL is bellow
 - Auto Renew tokens when TTL is below threshold
 - Sample [Grafana Dashboards ](./tutorial/grafana-terraform-config/dashboards/)
 
+[Changelog](./CHANGELOG.md)
 
 ## Install 
 
