@@ -1,6 +1,6 @@
 module github.com/vdbulcke/vault-token-monitor
 
-go 1.19
+go 1.20
 
 require (
 	github.com/carlescere/scheduler v0.0.0-20170109141437-ee74d2f83d82
