@@ -2,6 +2,12 @@
 ## [Unreleased]
 
 
+<a name="v0.2.2"></a>
+## [v0.2.2] - 2023-12-26
+### Bug Fixes
+- 0f74bd1 - dependabot dep
+
+
 <a name="v0.2.1"></a>
 ## [v0.2.1] - 2023-11-01
 ### Bug Fixes
@@ -24,6 +30,7 @@
 - 923d19d - vault monitor init commit
 
 
-[Unreleased]: https://github.com/vdbulcke/vault-token-monitor/compare/v0.2.1...HEAD
+[Unreleased]: https://github.com/vdbulcke/vault-token-monitor/compare/v0.2.2...HEAD
+[v0.2.2]: https://github.com/vdbulcke/vault-token-monitor/compare/v0.2.1...v0.2.2
 [v0.2.1]: https://github.com/vdbulcke/vault-token-monitor/compare/v0.2.0...v0.2.1
 [v0.2.0]: https://github.com/vdbulcke/vault-token-monitor/compare/v0.1.0...v0.2.0
