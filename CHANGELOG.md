@@ -2,6 +2,12 @@
 ## [Unreleased]
 
 
+<a name="v0.2.3"></a>
+## [v0.2.3] - 2024-04-01
+### Bug Fixes
+- eb4146b - dependencies update
+
+
 <a name="v0.2.2"></a>
 ## [v0.2.2] - 2023-12-26
 ### Bug Fixes
@@ -30,7 +36,8 @@
 - 923d19d - vault monitor init commit
 
 
-[Unreleased]: https://github.com/vdbulcke/vault-token-monitor/compare/v0.2.2...HEAD
+[Unreleased]: https://github.com/vdbulcke/vault-token-monitor/compare/v0.2.3...HEAD
+[v0.2.3]: https://github.com/vdbulcke/vault-token-monitor/compare/v0.2.2...v0.2.3
 [v0.2.2]: https://github.com/vdbulcke/vault-token-monitor/compare/v0.2.1...v0.2.2
 [v0.2.1]: https://github.com/vdbulcke/vault-token-monitor/compare/v0.2.0...v0.2.1
 [v0.2.0]: https://github.com/vdbulcke/vault-token-monitor/compare/v0.1.0...v0.2.0
